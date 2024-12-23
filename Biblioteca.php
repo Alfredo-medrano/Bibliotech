@@ -2,7 +2,7 @@
 
 // Abstracción
 class Autor {
-    private int $id; // Encapsulamiento: Atributos privados
+    private int $id; //Atributos privados para encapsulamiento.
     private string $nombre;
 
     public function __construct(int $id, string $nombre) {
